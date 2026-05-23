@@ -4,7 +4,14 @@ Code for patching Final Fantasy III with ad0220's English patch.
 Based on [this patch](https://www.romhacking.net/translations/1590/) from RHDN.
 
 ## Building
-`cc ff3trans.c -o ff3trans`
+### Requirements
+
+In theory, any compiler which supports the C99 standard should work.  Compilation has only been tested with Clang, however.
+
+The included `Makefile` assumes a GNU `make` command to be installed.
+
+### Build Command
+`make`
 
 ## Usage
 `ff3trans < ff3.nes > ff3e.nes`

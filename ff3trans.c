@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 static unsigned int crc(unsigned char *data, unsigned int len) {
 	int s1 = 1, s2 = 1;
 	while (len--) {
